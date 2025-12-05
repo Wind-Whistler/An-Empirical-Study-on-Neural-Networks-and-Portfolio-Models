@@ -5,7 +5,8 @@
 Out of consideration for data protection, this project will not publicly release the datasets used. If you wish to obtain the data employed in this study, please download it directly from CSMAR and CNRDS. Thank you for your understanding.  
 # Environment
 Python 3.12.4  
-For training the LSTM model, we leverage Kaggle's publicly available GPU resources to execute the relevant code. Avoid running LSTM training on your personal laptop—unless you enjoy the sensation of your device overheating!  
+For training the LSTM model, we utilized the public GPU resources provided by the Kaggle platform. The code used on Kaggle differs slightly from the aforementioned implementation but is functionally equivalent overall. To avoid program crashes due to excessive data volume, training was conducted in batches—processing 100 stocks at a time. 
+Here is your Kaggle account link: https://www.kaggle.com/windwhistler
 # Main Contribution  
 1. Incorporate sentiment factors to enhance trend prediction.  
 2. Introduce a mean-variance (MV) model with integer programming to simulate real-market conditions.  
