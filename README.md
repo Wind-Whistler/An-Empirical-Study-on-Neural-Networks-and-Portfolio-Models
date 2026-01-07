@@ -11,4 +11,12 @@ Here is my Kaggle account link: https://www.kaggle.com/windwhistler
 1. Incorporate sentiment factors to enhance trend prediction.  
 2. Introduce a mean-variance (MV) model with integer programming to simulate real-market conditions.  
 3. Apply Winsorization to improve prediction robustness.
+# Warnings
+Although the model developed in this study performs well in backtesting, it exhibits significant limitations in real-world market environments. These limitations are manifested in the following aspects:  
+1. Trading costs were not taken into account.
+2. Rapid data acquisition poses significant challenges.
+3. In reality, forecasting stock market movements with simple models is an inherently difficult endeavor. While incorporating sentiment factors can significantly reduce prediction errors, these errors tend to compound substantially over longer horizons—particularly when the forecast window extends to one month or beyond. A more plausible alternative is to employ real-time predictions coupled with high-frequency portfolio rebalancing. However, such an approach entails substantial computational demands and transaction costs, rendering it impractical for many real-world settings. The method proposed in this paper adopts a backtesting framework to construct portfolios by integrating sentiment-enhanced return forecasts. Although this strategy offers theoretical value in improving predictive accuracy, it remains far from ready for practical deployment in live trading environments.
+# Other things
+This is a link to a textbook errata, which may be helpful for improving future iterations of the course.  
+https://www.andrew.cmu.edu/user/jfp/OIFerrata.html
 
